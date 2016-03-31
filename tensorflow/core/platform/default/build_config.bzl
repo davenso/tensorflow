@@ -98,7 +98,8 @@ def tf_kernel_tests_linkstatic():
   return 0
 
 def tf_get_cuda_version():
-  return CUDA_VERSION
+  # return CUDA_VERSION
+  return 7.5
 
 def tf_get_cudnn_version():
   return CUDNN_VERSION
